@@ -1,0 +1,41 @@
+{
+  "name": "dkaratysh-ui-tests-playwright",
+  "version": "1.0.0",
+  "description": "UI automation test assignment: Create UI tests using Playwright (JS/TS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test: headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkaratysh/dkaratysh-ui-tests-playwright.git"
+  },
+  "keywords": [],
+  "author": "Dzmitry Karatysh",
+  "License": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkaratysh/dkaratysh-ui-tests-playwright/issues"
+  },
+  "homepage": "https://github.com/dkaratysh/dkaratysh-ui-tests-playwright#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-playwright": "^2.2.2",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.6.1",
+    "lint-staged": "^16.2.6",
+    "playwright": "^1.56.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  }
+}
