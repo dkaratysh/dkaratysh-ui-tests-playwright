@@ -25,7 +25,7 @@ cd dkaratysh-ui-tests-playwright
 ### 3. Install Playwright Browser
 
 ```bash
-npm run install:browsers
+npx playwright install
 ```
 
 ### 4. Setup Authentication
@@ -33,7 +33,7 @@ npm run install:browsers
 Create `.env` and add your credentials
 
 ```bash
-cp .env.example.env
+cp .env.example .env
 ```
 
 Edit `.env` and add your credentials:
@@ -56,4 +56,4 @@ npx playwright show-report
 - Auth state is cashed in `.auth/` for faster test execution
 - Login tests run without cashed auth test actual login flow
 - Other tests reuse auth session
-- Enable "setup" project to run auth with UI tests
+- Enable "setup" and "chromium" projects to run auth with UI tests
